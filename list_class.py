@@ -55,4 +55,3 @@ print(new_list)
 new_list.sort()
 
 print(new_list)
-import random

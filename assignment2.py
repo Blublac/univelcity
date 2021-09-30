@@ -14,3 +14,17 @@ q1 = "Abc"
 q2 = "Xyz"
 q3 = q1[0]+q2[-1]+q1[1]+q2[-2]+q1[2]+q2[0]
 print(q3)
+
+#corretion for assignment
+r1 = "Auit"
+r2 = "Kelly"
+r3 = int(len(s1)/2)
+solution = r1[0:r3]+s2 +r1[r3:]
+print(solution)
+
+i1 = "China"
+i2 = "Japan"
+b1 = i1[0]
+b2 = i2[0]
+c1 = i1[len(i1//2)]
+d1 = i1

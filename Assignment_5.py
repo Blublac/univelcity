@@ -1,7 +1,7 @@
 #build a password validate
 user_FN = input("Plese enter your First name\n>>>> ")
 user_LN = input("Please enter your Last name\n>>>> ")
-userID = user_FN[:3] + user_LN[:-3]
+userID = user_FN[:3] + user_LN[-3:]
 print(userID)
 
 symbols = ["#",",",".","?","&","*","@"]
@@ -22,7 +22,7 @@ elif len(password) > max_length:
     print("Password can't be more than 16 characters")
 else:
     print("Password is perfect")
-print(f"Dear {userID}, Your account is set and your password is {password}.Please do not share this password with anyone")
+print(f"Dear {user_FN } {user_LN},\n\tYour account  with the ID {userID}, is set and your password is {password}.Please do not share this password with anyone")
 
 
 #program to check for triangle
